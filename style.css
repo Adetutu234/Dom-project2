@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    margin-top: 20px;
+}
+#color-box{
+    width: 500px;
+    height: 500px;
+    background-color: slategray;
+}
+#change-color-btn{
+    padding: 7px 3px;
+    margin: 5px;
+    background-color: blanchedalmond;
+    border-radius: 8px;
+    border: none;
+}
+#change-color-btn:hover{
+    background-color: black;
+    color: blanchedalmond;
+}
